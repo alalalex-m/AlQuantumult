@@ -2,8 +2,8 @@
  
 [rewrite_local]
 
-# All Apple in one
- ^https?\:\/\/api\.helloclue\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/Clue/clue.js
+# Clue
+^https?\:\/\/api\.helloclue\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Clue.js
 
 
 [mitm]

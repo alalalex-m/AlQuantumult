@@ -3,11 +3,11 @@
 [rewrite_local]
 
 # Hyperweb
- ^https://zy6kcqa01a.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/hyperweb.js
+^https://zy6kcqa01a.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/HyperWeb.js
 
 [mitm]
 
-hostname = api.revenuecat.com
+hostname = zy6kcqa01a.execute-api.us-east-2.amazonaws.com
 
 */
 

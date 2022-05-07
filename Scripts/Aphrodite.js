@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # Aphrodite
- ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/Aphrodite.JS
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Aphrodite.js
 
 
 [mitm]
