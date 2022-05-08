@@ -2,7 +2,7 @@
 
 [rewrite_local]
 # Notability
-^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Notability.js
 [mitm]
 hostname = notability.com
 
