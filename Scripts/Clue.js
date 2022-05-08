@@ -8,7 +8,7 @@
 
 [mitm]
 
-hostname = buy.itunes.apple.com
+hostname = api.helloclue.com
 
 */
 

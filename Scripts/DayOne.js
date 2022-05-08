@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # Day One
-^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/dayone.js
+^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/DayOne.js
  
 [mitm]
 
