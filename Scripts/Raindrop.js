@@ -3,7 +3,7 @@
 [rewrite_local]
   
 # Cubox
- ^https:\/\/cubox.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/linuszlx/JS/main/Crack/cubox.js
+ ^https:\/\/cubox.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Raindrop.js
 
 [mitm]
 cubox.pro
