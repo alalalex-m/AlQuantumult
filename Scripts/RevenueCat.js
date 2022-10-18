@@ -5,7 +5,7 @@ Pixelmator、Planny、Gear、图图记账、Aphrodite、Apollo、MoneyThings、�
 [rewrite_local]
 
 # ～ RevenueCat
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/RevenueCat.js
 
 [mitm]
 
