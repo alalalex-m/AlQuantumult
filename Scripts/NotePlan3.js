@@ -2,7 +2,7 @@
  
 [rewrite_local]
 
-# VSCO
+# NotePlan3
  ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/NotePlan3.js
  
 [mitm]
