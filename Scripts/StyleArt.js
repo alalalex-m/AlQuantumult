@@ -3,8 +3,8 @@
 [rewrite_local]
 
 # Style Art
-^https?:\/\/api-aidraw\.3dmoxiu\.com\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/StyleArtProCrack.js
-
+^https?:\/\/api-aidraw\.3dmoxiu\.com\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken$ url script-response-body https://github.com/alalalex-m/AlQuantumult/blob/main/Scripts/StyleArt.js
+ 
 [mitm]
 
 hostname = api-aidraw.3dmoxiu.com
