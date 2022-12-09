@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # Style Art
- ^https:\/\/xianbeikeji\.com\/daily\/app\/user\/query url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/src/branch/master/Crack/mzjz.js
+ ^https:\/\/xianbeikeji\.com\/daily\/app\/user\/query url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/XXG.js
  
 [mitm]
 
