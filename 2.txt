@@ -1,0 +1,75 @@
+编写程序，使存放在 Buffer1 及 Buffer2 的两个 64位为无符号数相加，并将结果放在 Data 缓冲区中
+
+
+name 64 bit addition
+data segment
+addnum dw 0000,0ffffh,0000, offffh,0000,0ffffh,0000, offffh,6 dup(?)
+data ends 
+
+stack	segment para stack' stack' 
+	db 100 dup(?)
+stack	ends
+code	segment 
+	assume cs:code,ds:data,ss:stack,es:data
+start proc far
+
+begin: 	push ds；DS 中包含的是程序段前缀的起始地址
+	mov ax,0
+	push ax；设置返回至 DoS 的段值和IP值
+	mov ax, data
+	mov ds,ax
+	mov es,ax；罝段寄存器初值
+	lea bx,addnum
+
+Addition64: mov ax,[bx]; D--AX
+	mov si, [bx+8]; H->SI
+	cIc ; 0-~CF
+
+	Add ax,si		; D+H
+	mov [bx+10h],ax		；保存部分和 1
+	mov ax, [bx+2]		；C→AX
+	mov si, [bx+0ah]	; G->SI
+	Adc aX, si		;C+G部分和2的一部分与部分 和 1 的相应部分相加
+	mov [bx+12h] ,ax	；保存
+	mov ax, [bx+4]		；B→AX
+	mov si, [bx+0ch]	；F→SI
+	Adc aX, si		；B+F 部分和了的一部分与部分和2 的相应部分相加
+	mov [bx+14h] ,ax	；保存
+	mov ax, [bx+06h]	; A--AX
+	mov si, [bx+oeh]	; E->SI
+	Adc aX, si		；保存
+	mov [bx+16h],ax		；A+E 部分和4 的一部分与部分和了的相应部分相加
+	Xor ax			
+	adc ax,0		
+	mov [bx+18h], ax	
+	ret
+Start endp
+Code	ends
+End begin
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
