@@ -1,0 +1,83 @@
+编写程序，使存放在 Buffer1 及 Buffer2 的两个 64位为无符号数相加，并将结果放在 Data 缓冲区中
+
+
+name 64 bit addition
+
+data segment
+  addnum dw 0000,0ffffh,0000, offffh,0000,0ffffh,0000, offffh,6 dup(?)
+data ends
+
+stack segment para stack' stack'
+  db 100 dup(?)
+stack ends
+
+code segment
+  assume cs:code, ds:data, ss:stack, es:data
+
+start proc far
+begin:
+  push ds
+  mov ax, 0
+  push ax
+  mov ax, data
+  mov ds, ax
+  mov es, ax
+  lea bx, addnum
+  call Addition64
+
+  mov ax, 4C00h
+  int 21h
+start endp
+
+Addition64:
+  mov ax, [bx] ; D--AX
+  mov si, [bx+8] ; H->SI
+  clc ; Clear carry flag
+
+  add ax, si ; D+H
+  mov [bx+10h], ax ; Save partial sum 1
+
+  mov ax, [bx+2] ; C->AX
+  mov si, [bx+0Ah] ; G->SI
+  adc ax, si ; C+G partial sum 2, add with corresponding part of partial sum 1
+  mov [bx+12h], ax ; Save
+
+  mov ax, [bx+4] ; B->AX
+  mov si, [bx+0Ch] ; F->SI
+  adc ax, si ; B+F partial sum, add with corresponding part of partial sum 2
+  mov [bx+14h], ax ; Save
+
+  mov ax, [bx+6] ; A--AX
+  mov si, [bx+0Eh] ; E->SI
+  adc ax, si ; A+E partial sum 4, add with corresponding part of partial sum 3
+  mov [bx+16h], ax ; Save
+
+  xor ax, ax
+  adc ax, 0
+  mov [bx+18h], ax
+  ret
+code ends
+end begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
