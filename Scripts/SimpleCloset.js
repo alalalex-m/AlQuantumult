@@ -1,7 +1,7 @@
 [rewrite_local]
 #Simple Closet
 
-^https:\/\/closet\.jinjian\.tech\/api\/v3\/apple_app_store\/resolve_receipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/jjyc.js
+^https:\/\/closet\.jinjian\.tech\/api\/v3\/apple_app_store\/resolve_receipt url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/SimpleCloset.js
 
 [mitm]
 
