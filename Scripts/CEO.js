@@ -3,7 +3,7 @@
 [rewrite_local]
   
 # CEO
- ^https:\/\/user\.xiaozaoapp\.com\/app\/ceouser\/loginAuto url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ceo.js
+^https:\/\/user\.xiaozaoapp\.com\/app\/ceouser\/loginAuto url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/CEO.js
 
 [mitm]
 hostname = user.xiaozaoapp.com
