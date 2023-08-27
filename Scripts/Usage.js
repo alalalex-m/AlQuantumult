@@ -2,8 +2,8 @@
 
 [rewrite_local]
   
-# Pandora
- ^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Usage.js
+# Usage
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Usage.js
 
 [mitm]
 hostname = api.revenuecat.com

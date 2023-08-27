@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # BoShu
- ^https?:\/\/(.*.*.)\/users\/me url script-response-body https://github.com/alalalex-m/AlQuantumult/raw/main/Scripts/BoShu.js
+ ^https?:\/\/(.*.*.)\/users\/me url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/BoShu.js
  
 [mitm]
 

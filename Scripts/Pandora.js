@@ -3,7 +3,7 @@
 [rewrite_local]
   
 # Pandora
- ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://github.com/alalalex-m/AlQuantumult/raw/main/Scripts/Pandora.js
+ ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Pandora.js
 
 [mitm]
 hostname = buy.itunes.apple.com
