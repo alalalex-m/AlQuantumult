@@ -3,7 +3,7 @@
 [rewrite_local]
   
 # Documents
-^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Documents.js
 
 [mitm]
 hostname = license.pdfexpert.com
