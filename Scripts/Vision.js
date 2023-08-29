@@ -2,8 +2,8 @@
 
 [rewrite_local]
   
-# Documents
- ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vision.js
+# Vision
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Vision.js
 
 [mitm]
 hostname = api.revenuecat.com
