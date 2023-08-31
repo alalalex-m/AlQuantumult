@@ -22,7 +22,7 @@ const bofang = '/users/feature/list';
 const tubiao = '/users/me';
 
 if ($request.url.indexOf(huanying) != -1){
-  chxm1023.title = "Hey, chxm1023欢迎您使用🎉";
+  chxm1023.title = "🎉";
   chxm1023.description = "特别说明：解锁部分功能，不完全解锁🔔";
 }
 
