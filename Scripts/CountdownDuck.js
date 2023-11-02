@@ -3,8 +3,8 @@
 [rewrite_local]
   
 # 倒数鸭
- ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/daoshuya.js
- ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/daoshuya.js
+ ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/CountdownDuck.js
+ ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/CountdownDuck.js
 
 [mitm]
 hostname=api.revenuecat.com
