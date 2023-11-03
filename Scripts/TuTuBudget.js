@@ -48,12 +48,12 @@ var objc = JSON.parse($response.body);
     "subscriptions": {
       "com.ziheng.totowallet.onetimepurchase": {
           "billing_issues_detected_at": null,
-          "expires_date": "2099-12-21T09:56:52Z",
+          "expires_date": null,
           "grace_period_expires_date": null,
-          "is_sandbox": true,
-          "original_purchase_date": "2021-12-18T09:56:53Z",
+          "is_sandbox": false,
+          "original_purchase_date": null,
           "ownership_type": "PURCHASED",
-          "period_type": "trail",
+          "period_type": "normal",
           "purchase_date": "2021-12-18T09:56:52Z",
           "store": "app_store",
           "unsubscribe_detected_at": null
