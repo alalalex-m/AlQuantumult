@@ -46,35 +46,11 @@ var objc = JSON.parse($response.body);
       }
     },
     "subscriptions": {
-      "com.ziheng.totowallet.monthly": {
-        "billing_issues_detected_at": null,
-        "expires_date": "2022-02-11T11:15:28Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2022-01-11T11:15:29Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "trail",
-        "purchase_date": "2022-01-11T11:15:28Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": "2022-01-24T05:49:32Z"
-      },
-      "com.ziheng.totowallet.yearly": {
-        "billing_issues_detected_at": null,
-        "expires_date": "2021-12-21T09:56:52Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2021-12-18T09:56:53Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "trial",
-        "purchase_date": "2021-12-18T09:56:52Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": "2021-12-19T13:27:33Z"
-      },
       "com.ziheng.totowallet.onetimepurchase": {
           "billing_issues_detected_at": null,
           "expires_date": "2099-12-21T09:56:52Z",
           "grace_period_expires_date": null,
-          "is_sandbox": false,
+          "is_sandbox": true,
           "original_purchase_date": "2021-12-18T09:56:53Z",
           "ownership_type": "PURCHASED",
           "period_type": "trail",
