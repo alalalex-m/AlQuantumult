@@ -1,7 +1,7 @@
 /*
  
 [rewrite_local]
-
+U-A:Aphrodite
 # Aphrodite
 ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/Aphrodite.js
 
