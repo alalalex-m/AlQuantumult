@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # TutuBudget
-^https?:\/\/api.revenuecat.com\/v1\/subscribers\/$RCAnonymousID%3A6f83e84c3795452d9a4732627a678652 url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/TuTuBudget.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers\/(\$RCAnonymousID%3A)?\w{32})$ url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/TuTuBudget.js
  
 [mitm]
 
@@ -77,7 +77,7 @@ var objc = JSON.parse($response.body);
           "is_sandbox": false,
           "original_purchase_date": "2021-12-18T09:56:53Z",
           "ownership_type": "PURCHASED",
-          "period_type": "normal",
+          "period_type": "trail",
           "purchase_date": "2021-12-18T09:56:52Z",
           "store": "app_store",
           "unsubscribe_detected_at": null
