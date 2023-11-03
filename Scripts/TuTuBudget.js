@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # TutuBudget
-^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers\/(\$RCAnonymousID%3A)?\w{32})$ url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/TuTuBudget.js
+^https?:\/\/api.revenuecat.com\/v1\/subscribers\/$RCAnonymousID%3A6f83e84c3795452d9a4732627a678652 url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/TuTuBudget.js
  
 [mitm]
 
