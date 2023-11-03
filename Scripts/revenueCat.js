@@ -32,7 +32,7 @@ if (typeof $response == "undefined") {
   const app = 'gd';
   const UAMappings = {
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
-    'Aphrodite':{ name: 'com.ziheng.aphrodite.lifetime', id: '$rc_lifetime'},
+    'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
       
 
     
