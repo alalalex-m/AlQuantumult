@@ -33,8 +33,9 @@ if (typeof $response == "undefined") {
   const UAMappings = {
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
     'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
-    'totowallet':{ name: 'lifetime', id: 'com.ziheng.totowallet.onetimepurchase'},
-
+    'totowallet':{ name: 'monthly', id: 'com.ziheng.totowallet.monthly'},
+    'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
+    'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
 
     
     
