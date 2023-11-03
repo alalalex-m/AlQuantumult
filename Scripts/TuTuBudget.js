@@ -70,7 +70,7 @@ var objc = JSON.parse($response.body);
         "store": "app_store",
         "unsubscribe_detected_at": "2021-12-19T13:27:33Z"
       },
-      "com.ziheng.totowallet.yearly": {
+      "com.ziheng.totowallet.onetimepurchase": {
           "billing_issues_detected_at": null,
           "expires_date": "2099-12-21T09:56:52Z",
           "grace_period_expires_date": null,
@@ -81,7 +81,7 @@ var objc = JSON.parse($response.body);
           "purchase_date": "2021-12-18T09:56:52Z",
           "store": "app_store",
           "unsubscribe_detected_at": null
-            }
+      }
     }
   }
 };
