@@ -1,7 +1,7 @@
 /*
 
-Revenuecat解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
-
+Usage、VSCO、Aphrodite、totowallet、CountDuck、
+ 
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/revenueCat.js
 
@@ -35,7 +35,7 @@ if (typeof $response == "undefined") {
     'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
     'totowallet':{ name: 'monthly', id: 'com.ziheng.totowallet.monthly'},
     'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
-    'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
+    'Planny':{ name: 'premium', id: 'AlxXxlAo'},
 
     
     
