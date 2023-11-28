@@ -38,7 +38,7 @@ if (typeof $response == "undefined") {
       'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
       'Planny':{ name: 'premium', id: 'AlxXxlA'},
       'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
-      'Awesome%20Habits':{ name: 'premium', id: 'AlxXxlA'},
+      'Awesome%20Habits':{ name: 'premium', id: 'com.AlxXxlA.premium.yearly'},
 
     
     
