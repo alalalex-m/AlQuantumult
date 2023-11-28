@@ -10,16 +10,19 @@ hostname = closet.jinjian.tech
 *******************************/
 
 
-$done({
-  body: JSON.stringify({
-    "message": null,
-    "data": {
-      "type_text": "Premium",
-      "expired_at": "2999-09-28 06:06:06",
-      "apple_app_store_auto_renew": false,
-      "original_purchase_date_ms": "1693021116000",
-      "type": "premium"
-    },
+let obj = JSON.parse($response.body);
+obj = {
+  "message": null,
+  "data": {
+    "type_text": "Premium",
+    "expired_at": "3013-01-01 00:00:00",
+    "apple_app_store_auto_renew": false,
+    "original_purchase_date_ms": "1693021116000",
+    "type": "premium"
+  },
+  "status": "success"
+};
+$done({body: JSON.stringify(obj)});
     "status": "success"
   })
 });
