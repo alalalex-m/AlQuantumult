@@ -31,12 +31,13 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'CountDuck':{ name: 'premium', id: 'Lifetime'},
-    'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
-    'totowallet':{ name: 'onetimepurchase', id: 'com.ziheng.totowallet.onetimepurchase'},
-    'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
-    'Planny':{ name: 'premium', id: 'AlxXxlAo'},
-    'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
+      
+      'CountDuck':{ name: 'premium', id: 'Lifetime'},
+      'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
+      'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
+      'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
+      'Planny':{ name: 'premium', id: 'AlxXxlAo'},
+      'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
 
     
     
