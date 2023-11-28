@@ -10,13 +10,19 @@ hostname = closet.jinjian.tech
 *******************************/
 
 
-var body = $response['body'];
-var objc = JSON.parse(body);
+var AlxXxlA = JSON.parse($response.body);
 
-objc['data']['type_text'] = 'https://t.me/yqc_123 已为您破解永久会员';
-objc['data']['expired_at'] = '2999-09-28 06:06:06';
-objc['data']['apple_app_store_auto_renew'] = false;
-objc['data']['original_purchase_date_ms'] = '1693021116000';
-objc['data']['type'] = 'premium';
+AlxXxlA = {
+      "message" : null,
+      "data" : {
+        "type_text" : "https://t.me/yqc_123 已为您破解永久会员",
+        "expired_at" : "2999-09-28 06:06:06",
+        "apple_app_store_auto_renew" : false,
+        "original_purchase_date_ms" : "1693021116000",
+        "type" : "premium"
+      },
+      "status" : "success"
 
-$done({'body': JSON.stringify(objc)});
+}
+
+$done({body: JSON.stringify(AlxXxlA)});

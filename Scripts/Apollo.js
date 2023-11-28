@@ -10,12 +10,12 @@ https://apollopushserver.xyz/api/verify url script-response-body https://raw.git
 hostname = api.revenuecat.com
 
 */
-var hcsavn = JSON.parse($response.body);
+var AlxXxlA = JSON.parse($response.body);
 
-hcsavn = {
+AlxXxlA = {
   "status_message": "Receipt valid, subscription active, and set to auto-renew.",
   "subscription_type": "lifetime",
   "status_code": 0
 }
 
-$done({body: JSON.stringify(hcsavn)});
+$done({body: JSON.stringify(AlxXxlA)});
