@@ -23,8 +23,6 @@ if ($response.body) {
                 "type" : "premium"
               },
             "status" : "success"
-            "exetime": "1555653929373-1555653933781",
-            "serverTime": 1555653933.7815001
         })
     });
 } else {
