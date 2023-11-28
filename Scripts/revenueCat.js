@@ -36,6 +36,7 @@ if (typeof $response == "undefined") {
     'totowallet':{ name: 'onetimepurchase', id: 'com.ziheng.totowallet.onetimepurchase'},
     'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
     'Planny':{ name: 'premium', id: 'AlxXxlAo'},
+    'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
 
     
     
