@@ -36,8 +36,9 @@ if (typeof $response == "undefined") {
       'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
       'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
       'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
-      'Planny':{ name: 'premium', id: 'AlxXxlAo'},
+      'Planny':{ name: 'premium', id: 'AlxXxlA'},
       'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
+      'Awesome%20Habits':{ name: 'premium', id: 'AlxXxlA'},
 
     
     
