@@ -34,7 +34,7 @@ if (typeof $response == "undefined") {
       
       'CountDuck':{ name: 'premium', id: 'Lifetime'},
       'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
-      'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
+//      'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
       'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
       'Planny':{ name: 'premium', id: 'AlxXxlA'},
       'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
