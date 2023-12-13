@@ -1,6 +1,6 @@
 /*
 
-Usage、VSCO、Aphrodite、totowallet、CountDuck、
+Usage、VSCO、Aphrodite、CountDuck、
  
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/revenueCat.js
@@ -34,7 +34,6 @@ if (typeof $response == "undefined") {
       
       'CountDuck':{ name: 'premium', id: 'Lifetime'},
       'Aphrodite':{ name: 'lifetime', id: 'com.ziheng.aphrodite.onetime'},
-//      'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
       'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
       'Planny':{ name: 'premium', id: 'AlxXxlA'},
       'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
