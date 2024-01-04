@@ -39,6 +39,7 @@ if (typeof $response == "undefined") {
       'OneBox':{ name: 'all', id: 'com.ziheng.OneBox'},
       'Awesome%20Habits':{ name: 'HabitsPremiumLifetime', id: '$rc_lifetime'},
       'apollo':{ name: 'premium', id: 'com.alxxxla.premium.yearly'},
+      'FaceGlow':{ name: 'Pro access', id: 'com.alxxxla.premium.yearly'},
 
     
     
