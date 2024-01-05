@@ -123,19 +123,19 @@ var subscriptionInfo = {
   ownership_type: "PURCHASED",
   billing_issues_detected_at: null,
   period_type: "normal",
-  expires_date: "2099-12-18T01:04:17Z",
+  expires_date: "2099-05-18T12:25:20Z",
   grace_period_expires_date: null,
   unsubscribe_detected_at: null,
-  original_purchase_date: "2022-09-08T01:04:18Z",
-  purchase_date: "2022-09-08T01:04:17Z",
+  original_purchase_date: "2023-05-18T12:25:20Z",
+  purchase_date: "2023-05-18T12:25:20Z",
   store: "app_store"
 };
 
 var premiumSubscription = {
   grace_period_expires_date: null,
-  purchase_date: "2022-09-08T01:04:17Z",
+  purchase_date: "2023-05-18T12:25:20Z",
   product_identifier: "alxxxla",
-  expires_date: "2099-12-18T01:04:17Z"
+  expires_date: "2099-05-18T12:25:20Z"
 };
 
 var metadataObject = JSON.parse(JSON.stringify(metadata));
