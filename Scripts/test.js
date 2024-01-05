@@ -112,11 +112,12 @@ var metadata = {
     management_url: "https://apps.apple.com/account/subscriptions",
     subscriptions: {},
     entitlements: {},
-    original_purchase_date: "2022-09-07T13:05:43Z",
-    original_app_user_id: "$RCAnonymousID:ddgksf2013",
-    last_seen: "2022-09-08T01:04:03Z"
+    original_purchase_date: "2023-05-17T12:25:20Z",
+    original_app_user_id: "$RCAnonymousID:AlxXxlA",
+    last_seen: "2023-05-18T12:25:20Z"
   }
 };
+
 var subscriptionInfo = {
   is_sandbox: false,
   ownership_type: "PURCHASED",
@@ -129,12 +130,14 @@ var subscriptionInfo = {
   purchase_date: "2022-09-08T01:04:17Z",
   store: "app_store"
 };
+
 var premiumSubscription = {
   grace_period_expires_date: null,
   purchase_date: "2022-09-08T01:04:17Z",
-  product_identifier: "ddgksf2013_1y_128",
+  product_identifier: "alxxxla",
   expires_date: "2099-12-18T01:04:17Z"
 };
+
 var metadataObject = JSON.parse(JSON.stringify(metadata));
 premiumSubscription.product_identifier = "com.alxxxla.premium.yearly";
 metadataObject.subscriber.subscriptions["com.alxxxla.premium.yearly"] = subscriptionInfo;
@@ -149,4 +152,5 @@ if (matchedKey) {
 } else {
   metadataObject.subscriber.entitlements.pro = premiumSubscription;
 }
+
 $done({ body: JSON.stringify(metadataObject) });
