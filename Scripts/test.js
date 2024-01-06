@@ -26,6 +26,7 @@ const entitlementMapping = {
   'Locket': ['Gold'],
   'mizframa': ['premium', 'mf_20_lifetime2'],
   'PastePal': ['premium'],
+  'Overdue': ['Pro'],
   'MyThings': ['pro','xyz.jiaolong.MyThings.pro.infinity'],
   '%E4%BA%8B%E7%BA%BF': ['pro','xyz.jiaolong.eventline.pro.lifetime'],
   'GetFace': ['Pro access'],
