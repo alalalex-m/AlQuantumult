@@ -1,8 +1,10 @@
 /***********************************
-[rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/test.js
-^https:\/\/api\.revenuecat\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
+Aphrodite、Pandora、Apollo、VSCO、CountDuck、Happy Days、Awesome Habits、Anybox、Grow、Planny、我的物品、mizframa、事线、FaceGlow
+
+[rewrite_local]
+https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/test.js
+
 
 [mitm]
 
@@ -23,13 +25,10 @@ const entitlementMapping = {
   'Anybox': ['pro'],
   'Grow': ['grow.pro', 'grow_lifetime'],
   'Planny': ['premium'],
-  'Locket': ['Gold'],
   'mizframa': ['premium', 'mf_20_lifetime2'],
-  'PastePal': ['premium'],
-  'Overdue': ['Pro'],
-  'MyThings': ['pro','xyz.jiaolong.MyThings.pro.infinity'],
-  '%E4%BA%8B%E7%BA%BF': ['pro','xyz.jiaolong.eventline.pro.lifetime'],
-  'GetFace': ['Pro access'],
+  'Overdue': ['Pro'],//我的物品
+  '%E4%BA%8B%E7%BA%BF': ['pro','xyz.jiaolong.eventline.pro.lifetime'],//事线
+  'GetFace': ['Pro access'],//FaceGlow
 };
 
 // ========= 固定部分 ========= // 
