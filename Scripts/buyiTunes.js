@@ -3,7 +3,7 @@
 熊掌记、WaterMinder
 
 [rewrite_local]
- ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/test.js
+ ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/buyiTunes.js
 
 
 [mitm]
@@ -33,9 +33,6 @@ var productIDMap = {
     "mark": 0
   }
 };
-
-// 定义一个数组，存储想要破解的应用的产品ID
-const productIDs = ["net.shinyfrog.bear_iOS.pro_yearly_subscription_bis", "waterminder.premiumYearly", "otherIDs"];
 
 // 添加注意事项
 AlxXxlA.Attention = "元数据";
@@ -91,11 +88,5 @@ if (mapping.mark) {
 // 设置收据中的内购信息
 AlxXxlA.receipt.in_app = [inapp];
 
-// 判断产品ID是否在数组中
-if (productIDs.includes(AlxXxlA.receipt.in_app[0].product_id)) {
-  // 返回修改后的JSON数据
-  $done({body: JSON.stringify(AlxXxlA)});
-} else {
-  // 返回原始的响应体
-  $done($response.body);
-}
+// 返回修改后的JSON数据
+$done({body: JSON.stringify(AlxXxlA)});
