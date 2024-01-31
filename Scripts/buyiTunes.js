@@ -1,6 +1,6 @@
 /***********************************
 
-熊掌记、WaterMinder
+熊掌记、WaterMinder、论文君
 
 [rewrite_local]
  ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/alalalex-m/AlQuantumult/main/Scripts/buyiTunes.js
@@ -31,7 +31,12 @@ var productIDMap = {
     "name": "waterminder",
     "product_id": "waterminder.premiumYearly",
     "mark": 0
-  }
+  },
+  "com.SuperThesis.Thesis": {
+    "name": "thesis",
+    "product_id": "thesis_forever_vip",
+    "mark": 0
+    },
 };
 
 // 添加注意事项
