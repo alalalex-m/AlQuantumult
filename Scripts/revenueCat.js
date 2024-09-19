@@ -1,6 +1,6 @@
 /*
 
-Aphrodite、Pandora、Apollo、VSCO、CountDuck、Happy Days、Awesome Habits、Anybox、Grow、Planny、我的物品、mizframa、事线、FaceGlow
+Aphrodite、Pandora、Apollo、VSCO、CountDuck、Happy Days、Awesome Habits、Anybox、Grow、Planny、我的物品、mizframa、事线、FaceGlow、Yosum、
 
 [rewrite_local]
 
@@ -15,7 +15,7 @@ hostname = api.revenuecat.com
 // ========= 动态ID ========= //
 const entitlementMapping = {
   //'User-Agent':['权益名称','订阅标识符']
-  'Aphrodite': ['all'],
+  'Aphrodite': ['all','com.ziheng.aphrodite.lifetime'],
   'OneBox':['all', 'com.ziheng.OneBox'],
   'apollo': ['all'],
   'VSCO': ['membership'],
@@ -29,6 +29,7 @@ const entitlementMapping = {
   'Overdue': ['Pro'],//我的物品
   '%E4%BA%8B%E7%BA%BF': ['pro','xyz.jiaolong.eventline.pro.lifetime'],//事线
   'GetFace': ['Pro access'],//FaceGlow
+  'Yosum': ['Premium','terrykuo.co.yosum.premiummembership']
 };
 
 // ========= 固定部分 ========= // 
