@@ -1,6 +1,6 @@
 /*
 
-Aphrodite、Pandora、Apollo、VSCO、CountDuck、Happy Days、Awesome Habits、Anybox、Grow、Planny、我的物品、mizframa、FaceGlow、Yosum、每日占星、目标地图、Thiro、MyPianist
+Aphrodite、Pandora、Apollo、VSCO、CountDuck、Happy Days、Awesome Habits、Anybox、Grow、Planny、我的物品、mizframa、FaceGlow、每日占星、目标地图、Thiro、MyPianist
 
 [rewrite_local]
 
@@ -28,9 +28,7 @@ const entitlementMapping = {
   'mizframa': ['premium', 'mf_20_lifetime2'],
   'Overdue': ['Pro'],//我的物品
   'GetFace': ['Pro access'],//FaceGlow
-  'Yosum': ['Premium','terrykuo.co.yosum.premiummembership'],
   '%E6%98%9F%E5%BA%A7':['Premium','com.rk.horoscope.month12'],//每日占星
-  '%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE':['pro'],//目标地图
   'Thiro':['pro','atelerix_pro_lifetime'],//Thiro timer
   'MyPianist':['pro', id: 'com.collaparte.mypianist.pro.yearly'],
 
