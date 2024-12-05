@@ -140,7 +140,7 @@
 
 ### **数字信贷与传统信贷有什么不一样**
 
-![image-20241206024713572](/Users/alalalex/Library/Application Support/typora-user-images/image-20241206024713572.png)
+![1](1.png)
 
 特点1：“数字技术”和“数据”双要素驱动
 
@@ -202,4 +202,4 @@
 
 联系：
 
-![image-20241206024818817](/Users/alalalex/Library/Application Support/typora-user-images/image-20241206024818817.png)
+![2](2.png)
