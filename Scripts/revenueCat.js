@@ -30,7 +30,6 @@ const entitlementMapping = {
   '%E6%98%9F%E5%BA%A7':['Premium','com.rk.horoscope.month12'],//每日占星
   'Thiro':['pro','atelerix_pro_lifetime'],//Thiro timer
   'MyPianist':['pro', id: 'com.collaparte.mypianist.pro.yearly'],
-  'Mbdt':['pro', id: 'com.happydogteam.relax.lifetimePro'],
   'Tiimo':['pro', id: 'full_access'],
 
 };
