@@ -31,6 +31,7 @@ const entitlementMapping = {
   'Thiro':['pro','atelerix_pro_lifetime'],//Thiro timer
   'MyPianist':['pro', id: 'com.collaparte.mypianist.pro.yearly'],
   'Mbdt':['pro', id: 'com.happydogteam.relax.lifetimePro'],
+  'Tiimo':['pro', id: 'full_access'],
 
 };
 
